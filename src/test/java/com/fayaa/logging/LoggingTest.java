@@ -8,7 +8,7 @@ public class LoggingTest {
 
     @BeforeClass
     public void init() {
-        System.out.println(System.getProperty("user.dir"));
+        //System.out.println(System.getProperty("outputdir"));
     }
 
     @Test (invocationCount=100, threadPoolSize=10)
